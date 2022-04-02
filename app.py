@@ -46,7 +46,8 @@ The predicted house price will be {str(pred[0])} """
 # In[5]:
 
 
-app.run()
+if __name__== "__main__":
+    app.run()
 
 
 # In[ ]:

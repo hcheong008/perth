@@ -1,1 +1,1 @@
-web: gunicorn app:app
+web: gunicorn <perth-housing-prices>.wsgi --log-file -
